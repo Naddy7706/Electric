@@ -4,10 +4,7 @@ from tempfile import gettempdir
 import pyperclip as clipboard
 from pathlib import Path
 import pyautogui as gui
-import click
-import sys
-import os
-
+import click, sys, os
 
 def create_file():
     with open(f'{gettempdir()}\\automation.txt', 'w+') as file:
